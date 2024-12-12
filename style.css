@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+}
+body {
+  font-family: Arial,Helvetica, Sans-Seri;
+}
+
+nav .nav-link {
+  color: gold !important;
+  font-size: 15px;
+  font-weight: bold;
+  transition: color 0.5s;
+}
+nav .nav-link:hover {
+  color: green !important;
+}
+.container-fluid {
+  position: relative;
+}
+#hero {
+  position: absolute;
+  color: gold;
+  background:;
+  top: 20px;
+  left: 15px;
+  padding: 8px;
+}
+
+#hero-video {
+  width: 100%;
+  height: auto;
+}
+
+.nav-icon a{
+  color: white !important;
+  text-decoration: none;
+}
+
+section h6 {
+  color: gold;
+}
+section button a {
+  color: white !important;
+  text-decoration: none;
+}
+.expertise p {
+  color: white;
+}
+.firm-title {
+  color:gold;
+  background:url("images/about-page.jpeg") no-repeat center/cover;
+}
+
+.page-container {
+  background:url("images/about-page.jpeg") no-repeat center/cover;
+  min-height: 100vh;
+}
+
+footer p .social {
+  color: black;
+}
+
+footer {
+  color: white;
+}
+
+@media screen and (min-width:480px) {
+  nav .nav-link {
+    font-size: 25px;
+  }
+
+  nav img {
+    width: 100%;
+  }
+}
